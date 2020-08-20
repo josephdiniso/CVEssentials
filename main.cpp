@@ -7,8 +7,8 @@ using namespace std;
 using namespace cv;
 
 int main(int, char**) {
-    Mat image = imread("/home/josephdiniso/terry.jpg", 1);
-    resize(image, image, Size(500,500));
+    Mat image = imread("/home/jdiniso/lena.png", 1);
+    resize(image, image, Size(500, 500));
     // filterImage(image);
     // convolveFilter(image);
     
@@ -19,4 +19,3 @@ int main(int, char**) {
     waitKey(0);
     return 0;
 }
-
